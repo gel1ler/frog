@@ -1,0 +1,68 @@
+.container {
+    background-color: green;
+}
+
+.bees {
+    transition: all 1s linear;
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+}
+
+.bee {
+    width: 30px;
+    height: 30px;
+    transition: all linear 0.5s;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+button {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    translate: -50%;
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all ease-out 0.3s;
+}
+
+button:hover {
+    transform: scale(110%);
+}
+
+.jopa {
+    height: 100px;
+}
+
+.frog {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    translate: -50%;
+    width: 0;
+    height: 0;
+    transition: all linear 1s;
+}
+
+.goga {
+    top: -50px;
+    width: 1920px;
+    height: auto;
+}
+
+.run {
+    translate: -100%;
+}
